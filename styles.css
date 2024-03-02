@@ -1,0 +1,36 @@
+body {    
+    margin: 0;
+    padding: 0; 
+    
+}
+
+.logo-rappi{
+      
+    height: 60px;
+    border: none;
+    
+}
+
+
+
+footer{
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*Se utilizo para agregar estilo al boton "Generar Codigo de Barras"*/
+.button-hover {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .button-hover:hover {
+    transform: scale(1.1);
+  }
+  
+
+/*Se utilizo para central los botones*/
+  .button-container {
+    display: inline-block;
+}
