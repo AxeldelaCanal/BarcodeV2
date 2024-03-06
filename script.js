@@ -18,7 +18,7 @@ function generateBarcode() {
     textElement.setAttribute("x", "50%"); // Centrar horizontalmente
     textElement.setAttribute("y", "15"); // Posicionar verticalmente dentro del margen superior
     textElement.setAttribute("text-anchor", "middle"); // Alinear al centro
-    textElement.setAttribute("font-size", "18"); // Tamaño de la fuente
+    textElement.setAttribute("font-size", "17"); // Tamaño de la fuente
     textElement.setAttribute("font-family", "Arial, sans-serif"); // Definir la fuente
     //svgElement.setAttribute("width", "1000");
  

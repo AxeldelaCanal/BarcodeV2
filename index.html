@@ -31,7 +31,7 @@
         
     </header>
     
-    <main class="container style="max-width: 800px;>
+    <main class="container ">
 
         <div class="text-center px-4 ">            
             <h1>Generador de Código de Barras</h1>
@@ -40,7 +40,6 @@
         <div class="container py-5">
         
             <div class="row g-3 justify-content-center">
-
                 
                 <div class="col-auto">
                     <label for="barcodeInput" class="col-form-label fs-5">Ingrese el número del código de barras:</label>
@@ -48,24 +47,23 @@
                     
                     <label for="descriptionInput" class="col-form-label fs-5">Ingrese la descripción:</label>
                     <input type="text" id="descriptionInput" class="form-control my-2" aria-describedby="" maxlength="30" required onkeypress="handleKeyPress(event, 'generateButton')">
-                    <small class="form-text text-muted">Máximo 30 caracteres.</small>
+                    <small class="form-text text-muted">Máximo 30 caracteres</small>
 
                     
                     <div class="col-md-12 text-center py-4">
                         <div class="button-container">
-                            <button type="submit" id="generateButton" class="btn btn-primary button-hover" onclick="generateBarcode()" disabled>Generar Código de Barras</button>
-                            <button id="deleteButton" class="btn btn-danger button-hover" onclick="clearFields()" disabled>Limpiar</button> <!-- Botón "Limpiar" para limpiar los campos -->
+                            <button type="submit" id="generateButton" class="btn btn-outline-primary button-hover" onclick="generateBarcode()" disabled>Generar Código de Barras</button>
+                            <button id="deleteButton" class="btn btn-outline-danger button-hover" onclick="clearFields()" disabled>Limpiar</button> <!-- Botón "Limpiar" para limpiar los campos -->
                         </div>
                     </div>
     
                     <div class="col-md-12 text-center py-4">
-                        <h1 des></h1>
                         <svg id="barcodeDisplay"></svg>
                     </div>
 
                     <div class="col-md-12 text-center py-4">
                         <div class="button-container">
-                            <button id="downloadButton" class="btn btn-warning button-hover" onclick="downloadBarcodeImage('barcodeDisplay', 'codigo_de_barras.png')"  style="display: none;"><i class="fa-solid fa-cloud-arrow-down"></i></button>
+                            <button id="downloadButton" class="btn btn-outline-secondary button-hover" onclick="downloadBarcodeImage('barcodeDisplay', 'codigo_de_barras.png')"  ><i class="fa-solid fa-cloud-arrow-down"></i></button>
                         </div>
                     </div>
                 </div> <!-- col -->
@@ -73,11 +71,10 @@
         </div> <!-- container -->
     </main>
 
- <!-- iconos--> 
- <script src="https://kit.fontawesome.com/947f19c8f7.js" crossorigin="anonymous"></script>
+ 
     <footer class="footer bg-dark-subtle text-center text-lg-start">    
         <div class="text-center py-3 ">
-          <p class="text-center text-muted footer-link">&copy; 2024 - Rappi Turbo Mar del Plata 🧡</p>
+          <p class="text-center text-muted footer-link">&copy; 2024 - Rappi Turbo Mar del Plata 🧡🧡</p>
         </div>
     </footer> 
     
