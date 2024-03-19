@@ -12,7 +12,6 @@ body {
 }
 
 
-
 footer{
     position: static;
     bottom: 0;
@@ -23,20 +22,3 @@ footer{
     width: 55px;
     height: auto;
 }
-
-
-/*Se utilizo para agregar estilo al boton "Generar Codigo de Barras"*/
-/* .button-hover {
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .button-hover:hover {
-    transform: scale(1.1);
-  }
-  */
-
-/*Se utilizo para central los botones
-  .button-container {
-    display: inline-block;
-}
- */
