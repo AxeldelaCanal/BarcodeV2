@@ -19,6 +19,11 @@ footer{
     width: 100%;
 }
 
+.turboMDP{
+    width: 55px;
+    height: auto;
+}
+
 
 /*Se utilizo para agregar estilo al boton "Generar Codigo de Barras"*/
 /* .button-hover {
